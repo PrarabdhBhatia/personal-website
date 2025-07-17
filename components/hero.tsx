@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, Phone } from "lucide-react"
-import Image from "next/image" // Import the Image component
+import Image from "next/image"
 
 export function Hero() {
   return (
@@ -16,11 +16,11 @@ export function Hero() {
             {/* Your Photo */}
             <div className="mb-6">
               <Image
-                src="/photo.jpg" // Using the provided image
+                src="/photo.jpg" // <--- ENSURE THIS PATH IS EXACTLY CORRECT
                 alt="Prarabdh Bhatia"
-                width={250} // Increased width for a larger image
-                height={250} // Increased height for a larger image
-                className="rounded-full border-4 border-primary/50 shadow-lg mx-auto animate-float object-cover" // Added object-cover to ensure it fills the circle
+                width={250}
+                height={250}
+                className="rounded-full border-4 border-primary/50 shadow-lg mx-auto animate-float object-cover"
               />
             </div>
 
