@@ -18,8 +18,8 @@ export function Hero() {
               <Image
                 src="/photo.jpg" // <--- ENSURE THIS PATH IS EXACTLY CORRECT
                 alt="Prarabdh Bhatia"
-                width={250}
-                height={250}
+                width={300}
+                height={300}
                 className="rounded-full border-4 border-primary/50 shadow-lg mx-auto animate-float object-cover"
               />
             </div>
