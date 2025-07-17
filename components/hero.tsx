@@ -16,11 +16,11 @@ export function Hero() {
             {/* Your Photo */}
             <div className="mb-6">
               <Image
-                src="/photo.jpg" // <--- REPLACE THIS WITH YOUR IMAGE PATH
+                src="/prarabdh-bhatia.png" // Using the provided image
                 alt="Prarabdh Bhatia"
-                width={200}
-                height={200}
-                className="rounded-full border-4 border-primary/50 shadow-lg mx-auto animate-float"
+                width={250} // Increased width for a larger image
+                height={250} // Increased height for a larger image
+                className="rounded-full border-4 border-primary/50 shadow-lg mx-auto animate-float object-cover" // Added object-cover to ensure it fills the circle
               />
             </div>
 
