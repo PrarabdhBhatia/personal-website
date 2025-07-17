@@ -16,7 +16,7 @@ export function Hero() {
             {/* Your Photo */}
             <div className="mb-6">
               <Image
-                src="/prarabdh-bhatia.png" // Using the provided image
+                src="/photo.jpg" // Using the provided image
                 alt="Prarabdh Bhatia"
                 width={250} // Increased width for a larger image
                 height={250} // Increased height for a larger image
