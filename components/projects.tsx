@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github } from "lucide-react"
+import { Github } from "lucide-react"
 
 export function Projects() {
   const projects = [
@@ -98,24 +98,14 @@ export function Projects() {
                       </Badge>
                     ))}
                   </div>
-                  <div className="flex gap-2">
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="flex-1 border-primary/30 hover:bg-primary/10 bg-transparent text-primary hover:text-primary"
-                    >
-                      <Github className="h-4 w-4 mr-1" />
-                      Code
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="flex-1 border-primary/30 hover:bg-primary/10 bg-transparent text-primary hover:text-primary"
-                    >
-                      <ExternalLink className="h-4 w-4 mr-1" />
-                      Demo
-                    </Button>
-                  </div>
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="w-full border-primary/30 hover:bg-primary/10 bg-transparent text-primary hover:text-primary"
+                  >
+                    <Github className="h-4 w-4 mr-1" />
+                    Code
+                  </Button>
                 </div>
               </CardContent>
             </Card>
