@@ -3,7 +3,18 @@ import { MapPin, Calendar, Briefcase } from "lucide-react"
 
 export function Experience() {
   const experiences = [
-    {
+     {
+      title: "Data Scientist",
+      company: "Spanda AI",
+      location: "San Francisco, California",
+      period: "Oct. 2025 – Present",
+      achievements: [
+        "Building an AI enabled education platform for 50,000+ students",
+        "Leveraging VideoRAG, GraphRAG, and hypergraph knowledge structures to create personalized learning paths for each user",
+      ],
+      skills: ["LLMs", "Knowledge Graphs", "Healthcare AI", "Model Fine-tuning"],
+      current: false,
+    },   {
       title: "Data Science Researcher",
       company: "Stealth Healthcare Startup",
       location: "San Francisco, California",
