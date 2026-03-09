@@ -12,7 +12,7 @@ export function Experience() {
         "Building an AI enabled education platform for 50,000+ students",
         "Leveraging VideoRAG, GraphRAG, and hypergraph knowledge structures to create personalized learning paths for each user",
       ],
-      skills: ["LLMs", "Knowledge Graphs", "Healthcare AI", "Model Fine-tuning"],
+      skills: ["LLMs", "Knowledge Graphs", "Agentic AI", "Multimodal AI", "LangChain", "Neo4j", "RAG Systems"],
       current: false,
     },   {
       title: "Data Science Researcher",
