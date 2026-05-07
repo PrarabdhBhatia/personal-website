@@ -20,7 +20,7 @@ export function Hero() {
                 alt="Prarabdh Bhatia"
                 width={250}
                 height={250}
-                className="rounded-full border-4 border-primary/50 shadow-lg mx-auto animate-float object-cover"
+                className="rounded-full border-4 border-primary/50 shadow-lg mx-auto object-cover"
               />
             </div>
 
