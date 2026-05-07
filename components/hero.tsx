@@ -16,7 +16,7 @@ export function Hero() {
             {/* Your Photo */}
             <div className="mb-6">
               <Image
-                src="/photo.jpg" // <--- ENSURE THIS PATH IS EXACTLY CORRECT
+                src="/prarabdh-bhatia.png"
                 alt="Prarabdh Bhatia"
                 width={250}
                 height={250}
