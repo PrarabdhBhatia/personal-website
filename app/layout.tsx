@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: "Portfolio showcasing expertise in machine learning, NLP, and AI solutions",
     type: "website",
   },
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({

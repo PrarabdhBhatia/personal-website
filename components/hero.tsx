@@ -16,11 +16,11 @@ export function Hero() {
             {/* Your Photo */}
             <div className="mb-6">
               <Image
-                src="/photo.jpg" // <--- ENSURE THIS PATH IS EXACTLY CORRECT
+                src="/photo.jpg"
                 alt="Prarabdh Bhatia"
                 width={250}
                 height={250}
-                className="rounded-full border-4 border-primary/50 shadow-lg mx-auto animate-float object-cover"
+                className="rounded-full border-4 border-primary/50 shadow-lg mx-auto object-cover"
               />
             </div>
 
